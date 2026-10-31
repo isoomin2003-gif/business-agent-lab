@@ -1,0 +1,15 @@
+{
+  "name": "aimtrace30",
+  "version": "1.0.0",
+  "description": "AimTrace30 — 사람 실루엣 표적 헤드샷·트래킹 에임 훈련 웹앱 (기본·움직임·분석·랭크·트래킹 모드)",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  }
+}
